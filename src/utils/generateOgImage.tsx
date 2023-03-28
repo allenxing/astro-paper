@@ -22,6 +22,7 @@ const fetchFonts = async () => {
 const { fontRegular, fontBold } = await fetchFonts();
 
 const ogImage = (text: string) => {
+  console.error("text", text);
   return (
     <div
       style={{

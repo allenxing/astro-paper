@@ -1,7 +1,9 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
+    "jsx": "react",
     "baseUrl": "src",
+    "allowUmdGlobalAccess": true,
     "paths": {
       "@assets/*": ["assets/*"],
       "@config": ["config.ts"],
